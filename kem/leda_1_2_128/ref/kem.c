@@ -31,11 +31,11 @@
 #include "niederreiter_keygen.h"
 #include "niederreiter_encrypt.h"
 #include "niederreiter_decrypt.h"
-#include "
+
 ///////////////////////////////////// OQS //////////////////////////////////////
 // #include "rng.h"
 ////////////////////////////////////////////////////////////////////////////////
-"
+
 #include "sha3.h"
 #include <string.h>
 /* Generates a keypair - pk is the public key and sk is the secret key. */
