@@ -34,6 +34,11 @@
 #include "rng.h"
 #include "dfr_test.h"
 #include <string.h>
+
+///////////////////////////////////// OQS //////////////////////////////////////
+#include "randombytes.h"
+////////////////////////////////////////////////////////////////////////////////
+
 /*----------------------------------------------------------------------------*/
 /* Implementation that should never be optimized out by the compiler */
 static inline void zeroize( void *v, size_t n )

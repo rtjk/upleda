@@ -35,6 +35,10 @@
 #include "sha3.h"
 #include <string.h> // memset(...)
 
+///////////////////////////////////// OQS //////////////////////////////////////
+#include "randombytes.h"
+////////////////////////////////////////////////////////////////////////////////
+
 static
 void encrypt_niederreiter(DIGIT syndrome[],                // 1  polynomial
                           const publicKeyNiederreiter_t *const pk,

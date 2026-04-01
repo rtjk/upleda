@@ -2,12 +2,12 @@ name: leda-1-2-128
 type: kem
 claimed-nist-level: 1
 claimed-security: IND-CCA2
-length-public-key: 800
-length-ciphertext: 768
-length-secret-key: 1632
+length-public-key: 3536
+length-ciphertext: 3560
+length-secret-key: 50
 length-shared-secret: 32
-length-keypair-seed: 64
-length-encaps-seed: 32
+length-keypair-seed: 24
+length-encaps-seed: 24
 nistkat-sha256: c70041a761e01cd6426fa60e9fd6a4412c2be817386c8d0f3334898082512782
 testvectors-sha256: 6730bb552c22d9d2176ffb5568e48eb30952cf1f065073ec5f9724f6a3c6ea85
 principal-submitters:
