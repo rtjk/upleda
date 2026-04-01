@@ -31,7 +31,11 @@
 #include "niederreiter_keygen.h"
 #include "H_Q_matrices_generation.h"
 #include "gf2x_arith_mod_xPplusOne.h"
-#include "rng.h"
+#include "
+///////////////////////////////////// OQS //////////////////////////////////////
+// #include "rng.h"
+////////////////////////////////////////////////////////////////////////////////
+"
 #include "dfr_test.h"
 #include <string.h>
 

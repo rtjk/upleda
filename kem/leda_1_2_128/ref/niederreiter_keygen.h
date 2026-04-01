@@ -31,7 +31,11 @@
 #pragma once
 
 #include "niederreiter.h"
-#include "rng.h"
+#include "
+///////////////////////////////////// OQS //////////////////////////////////////
+// #include "rng.h"
+////////////////////////////////////////////////////////////////////////////////
+"
 
 void key_gen_niederreiter(publicKeyNiederreiter_t   *const pk,
                           privateKeyNiederreiter_t *const sk);
