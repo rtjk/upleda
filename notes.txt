@@ -1,0 +1,19 @@
+
+name: leda-X-Y-Z
+
+X: security level (1, 3, 5)
+Y: N0
+Z: DFR level (64, 128, 192, 256)
+
+-DCONSTANT_TIME=1
+-DN0=2
+-DCATEGORY=1
+-DDFR_SL_LEVEL=1
+-DSTANDALONE_KECCAK 1
+
+- name: avx2
+  version: AAA
+  supported_platforms:
+  - architecture: x86_64
+    required_flags:
+    - avx2
