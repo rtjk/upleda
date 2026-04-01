@@ -1,4 +1,4 @@
-name: leda-1-2-128
+name: leda_1_2_128
 type: kem
 claimed-nist-level: 1
 claimed-security: IND-CCA2
